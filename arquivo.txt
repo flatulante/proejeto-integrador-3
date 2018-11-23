@@ -1,0 +1,14 @@
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Plantas", "Qual e o nome do grupo de plantas mais primitivo da terra?", "Angiospermas", "Pteridofitas", "Gimnospermas", "Briofitas", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Plantas", "Como e chamado o caule horizontal da maioria das plantas pteridofitas?", "Rizomatla", "Horizontado", "Cauloide", "Rizoma", 1)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Plantas", "Como sao chamados os dois tipos de vasos vasculares existentes nas plantas?", "xilema e atemia", "xilema e veia", "xilema e cloroplasto ", "xilema e floema", 1)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Plantas", "sao caracteristicas das plantas:", "Autotrofos, unicelulares e procariontes", "Heterotrofos, pluricelulares e procariontes", "Autotrofos, unicelulares e procariontes", "Autotrofos, pluricelulares e eucariontes", 2)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Plantas", "Quais dessa especies sao exemplos de briofitas (grupo de plantas)?", "Laranjeira e mangueira", "Samambaia e pinheiro", "abacateiro e sambaiacu", "Musgos e hepaticas", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Plantas", "Qual e o tipo de caule da bananeira?", "caule espinhoso", "caule aquatico", "caule musgoso", "caule subterraneo", 1)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Matematica", "Quanto é 1+1?", "1", "3", "4", "2", 0)
