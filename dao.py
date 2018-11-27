@@ -29,35 +29,24 @@ class DAO(object):
 			resposta4 varchar(100) NOT NULL, \
 			dificuldade int NOT NULL); \
 			")
-		DAO.fechar_conexao()
+		
 		print("Tabela criada com sucesso")
 		for linha in DAO.pegar_perguntas_all():
 			print(linha)
 
 		#arq = open(DAO.filename_tabelas, "r")
-		
-		arq = [
-			("Plantas", "Qual e o nome do grupo de plantas mais primitivo da terra?", "Angiospermas", "Pteridofitas", "Gimnospermas", "Briofitas", 0),
-			("Plantas", "Como e chamado o caule horizontal da maioria das plantas pteridofitas?", "Rizomatla", "Horizontado", "Cauloide", "Rizoma", 1),
-			("Plantas", "Como sao chamados os dois tipos de vasos vasculares existentes nas plantas?", "xilema e atemia", "xilema e veia", "xilema e cloroplasto ", "xilema e floema", 1),
-			("Plantas", "sao caracteristicas das plantas:", "Autotrofos, unicelulares e procariontes", "Heterotrofos, pluricelulares e procariontes", "Autotrofos, unicelulares e procariontes", "Autotrofos, pluricelulares e eucariontes", 2),
-			("Plantas", "Quais dessa especies sao exemplos de briofitas (grupo de plantas)?", "Laranjeira e mangueira", "Samambaia e pinheiro", "abacateiro e sambaiacu", "Musgos e hepaticas", 0),
-			("Plantas", "Qual e o tipo de caule da bananeira?", "caule espinhoso", "caule aquatico", "caule musgoso", "caule subterraneo", 1),
-			("Matematica", "Quanto é 1+1?", "1", "3", "4", "2", 0)
-		]
-		DAO.inserir_pergunta(arq)
+		arq = open("arquivo.txt", "r")
 
+		DAO.criar_conexao()
+		for i in arq:
+			b = arq.readline()
+			DAO.cursor.execute(b)
+			print(b)
+		arq.close()
+		
+		DAO.fechar_conexao()
 		for linha in DAO.pegar_perguntas_all():
 			print(linha)
-
-
-
-	@staticmethod
-	def inserir_pergunta(lista):
-		DAO.criar_conexao()
-		DAO.cursor.executemany("INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES (?, ?, ?, ?, ?, ?, ?)", lista)
-		DAO.fechar_conexao()
-
 
 	@staticmethod
 	def criar_conexao():

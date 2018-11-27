@@ -22,7 +22,13 @@ class Perguntas():
 	
     def __init__(self, jogador):
         self.jogador = jogador
-        self.temas = [[0,"Plantas"], [1,"Matematica"]]
+        self.temas = [
+            [0, "Plantas"],
+            [1, "Reino Vegetal I"],
+            [2, "DNA e RNA - I"],
+            [3, "Genética - I"],
+            [4, "Simulado do Enem - Biologia Celular"]
+        ]
         tema = self.definirTema()
         self.perguntas = self.pegarPerguntas(tema)
         self.jogo()
@@ -64,6 +70,7 @@ class Perguntas():
             try:
                 self.limpar()
                 print("Pergunta %i/%i | Pontuação = %i" %(self.pergunta, self.max_pergunta+1, self.pontuacao))
+                print(self.perguntas)
                 print("%i) %s" %(self.perguntas[self.pergunta][0], self.perguntas[self.pergunta][2]))
                 alt_a = random.choice(alternativas)
 
