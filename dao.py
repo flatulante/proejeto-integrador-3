@@ -40,12 +40,10 @@ class DAO(object):
 		for i in arq:
 			b = arq.readline()
 			try: 
-				print(b)
 				DAO.cursor.execute(b)
 			except Exception as error:
 				print("Erro: ", error)
-				print('I: ', i)
-				print('B: ', b)
+				print('Insert: ', b)
 		arq.close()
 		DAO.fechar_conexao()
 		
