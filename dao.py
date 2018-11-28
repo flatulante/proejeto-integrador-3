@@ -5,7 +5,7 @@ class DAO(object):
 	A classe DAO é uma classe composta por métodos estáticos que buscam realizar acessos ao banco de dados.
 	"""
 
-	filename = 'storage.db'
+	filename = 'banco_de_dados.db'
 	filename_tabelas = 'arquivo.txt'
 
 
@@ -16,8 +16,8 @@ class DAO(object):
 		"""
 		if os.path.exists(DAO.filename):
 			os.remove(DAO.filename)
+		
 		DAO.criar_conexao()
-
 		DAO.cursor.execute(" \
 			CREATE TABLE perguntas ( \
 			nmr_questao INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, \
@@ -29,24 +29,29 @@ class DAO(object):
 			resposta4 varchar(100) NOT NULL, \
 			dificuldade int NOT NULL); \
 			")
-		
+		DAO.fechar_conexao()
 		print("Tabela criada com sucesso")
 		for linha in DAO.pegar_perguntas_all():
 			print(linha)
 
 		#arq = open(DAO.filename_tabelas, "r")
 		arq = open("arquivo.txt", "r")
-
 		DAO.criar_conexao()
 		for i in arq:
 			b = arq.readline()
-			DAO.cursor.execute(b)
-			print(b)
+			try: 
+				print(b)
+				DAO.cursor.execute(b)
+			except Exception as error:
+				print("Erro: ", error)
+				print('I: ', i)
+				print('B: ', b)
 		arq.close()
-		
 		DAO.fechar_conexao()
-		for linha in DAO.pegar_perguntas_all():
-			print(linha)
+		
+		#for linha in DAO.pegar_perguntas_all():
+	#		print(linha)
+		
 
 	@staticmethod
 	def criar_conexao():
@@ -79,3 +84,7 @@ class DAO(object):
 
 if __name__ == '__main__':
 	DAO.criar_bd()
+	DAO.criar_conexao()
+	DAO.cursor.execute('SELECT tema FROM perguntas GROUP BY tema')
+	print(DAO.cursor.fetchall())
+	DAO.fechar_conexao()

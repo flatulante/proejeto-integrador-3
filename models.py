@@ -70,7 +70,6 @@ class Perguntas():
             try:
                 self.limpar()
                 print("Pergunta %i/%i | Pontuação = %i" %(self.pergunta, self.max_pergunta+1, self.pontuacao))
-                print(self.perguntas)
                 print("%i) %s" %(self.perguntas[self.pergunta][0], self.perguntas[self.pergunta][2]))
                 alt_a = random.choice(alternativas)
 
