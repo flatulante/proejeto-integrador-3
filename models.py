@@ -22,7 +22,13 @@ class Perguntas():
 	
     def __init__(self, jogador):
         self.jogador = jogador
-        self.temas = [[0,"Plantas"], [1,"Matematica"]]
+        self.temas = [
+            [0, "Plantas"],
+            [1, "Reino Vegetal I"],
+            [2, "DNA e RNA - I"],
+            [3, "Genética - I"],
+            [4, "Simulado do Enem - Biologia Celular"]
+        ]
         tema = self.definirTema()
         self.perguntas = self.pegarPerguntas(tema)
         self.jogo()
