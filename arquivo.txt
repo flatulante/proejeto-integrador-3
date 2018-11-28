@@ -1,4 +1,4 @@
-INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES 
 INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Plantas", "Qual e o nome do grupo de plantas mais primitivo da terra?", "Angiospermas", "Pteridofitas", "Gimnospermas", "Briofitas", 0)
 
 INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Plantas", "Como e chamado o caule horizontal da maioria das plantas pteridofitas?", "Rizomatla", "Horizontado", "Cauloide", "Rizoma", 1)
@@ -11,4 +11,64 @@ INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta
 
 INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Plantas", "Qual e o tipo de caule da bananeira?", "caule espinhoso", "caule aquatico", "caule musgoso", "caule subterraneo", 1)
 
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Reino Vegetal I", "Nas Gimnospermas, o que é conhecido como flor?", "Receptáculo Floral", "Pedúnculo Floral", "Estigma", "Estróbilo", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Reino Vegetal I", "Quais das características a seguir são das briófitas?", "Rizoma, caule verdadeiro e avasculares", "Rizóide, caule verdadeiro e vasculares", "Rizoma, caulóide e avasculares", "Rizóide, caulóide e avasculares", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Reino Vegetal I", "Quem é o agente polinizador das Gimnospermas?", "Homem", "Água", "Abelhas e borboletas", "Vento", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Reino Vegetal I", "As Angiospermas são divididas entre duas partes : monocotiledôneas e dicotiledôneas. As seguir , quais são as características que diferenciam as duas ?", "Monocotiledôneas são maiores do que as dicotiledôneas.", 'Monocotiledôneas com uma raiz principal e dicotiledôneas com raiz em forma de "cabeleira"', "Monocotiledôneas têm pétalas e as dicotiledôneas não têm.", "Monocotiledôneas têm caule irregular e as dicotiledôneas têm caule regular", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Reino Vegetal I", "Nas Angiospermas, onde é produzido os grãos de pólen?", "Óvulo", "Estame", "Ovário", "Anteras", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Reino Vegetal I", "As Angiospermas e as Gimnospermas são plantas totalmente diferentes, porém, elas são participantes de um grupo. Qual o nome do grupo?", "N.D.A.", "Rizódicas", "Caulóidicas", "Espermatófitas", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Reino Vegetal I", "Pelo qual fato, as briófitas, a maioria, não chegam cerca de 1 cm de altura?", "Não têm raiz.", "Não têm caule.", "Não têm folha", "Não têm vasos condutores", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Reino Vegetal I", 'As Gimnospermas, literariamente, são conhecidas como "semente nua". Como é conhecido os frutos cientificamente?', "Óvulo", "Espermas", "Cáule", "Ovário", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("vandalimo", "é crime?", "sim", "nao", "depende", "acho bom", 0)
+
 INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Matematica", "Quanto é 1+1?", "1", "3", "4", "2", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("DNA e RNA - I", "Qual significado de DNA?", "Base Adenina Nitrogenada", "Purina Ácido Pirimidina", "Ácido Ribonucleico", "Ácido Dexorribonucleíco", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("DNA e RNA - I", "Do que é constituido o DNA?", "Moléculas de H2O", "RNA", "Carbono", "Nucleotídeos", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("DNA e RNA - I", "Quais são as bases nitrogenadas presentes no DNA ?", "Adenina, Tinina, Guanina, Uracila", "Uracila, Timina, Guanina, Citosina", "Uracila, Timina, Citosina, Adenina", "Adenina, Timina, Citosina, Guanina", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("DNA e RNA - I", "Em que parte da célula o RNA realiza a função de sintetizar proteínas?", "No citoplasma", "Na dupla hélice", "No genoma", "No núcleo", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("DNA e RNA - I", "Qual dos quatro tipos de RNA leva o código genético do DNA para o citoplasma?", "Rna ribossomico", "Rna mensageiro", "Rna pequeno nuclear", "Rna transportador", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("DNA e RNA - I", "Qual é o nome das moléculas menores cujo encadeamento forma tanto o DNA como o RNA?", "Bases nitrogenadas", "Nucleosideos", "Pentoses", "Nucleotideos", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("DNA e RNA - I", "Complete: A estrutura do DNA lembra uma escada em espiral. Os degraus são bases nitrogenadas unidas por pontes de hidrogênio e o corrimão é formado pelo ___.", "Pentoses", "Nucleotídeos", "Bases nitrogenadas", "Complexo de açúcar-fosfato.", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Genética - I", "Em um banco de sangue contém 10 litros de tipo A, 5 de tipo B, 9 de tipo Ab e 7 de tipo O. Um paciente de tipo sanguíneo A está a espera de uma transfusão. Quantos litros de sangue estão disponível no bando de sangue que seja compatível com o seu?", "5", "19", "10", "17", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Genética - I", "Qual dos tipos sanguíneo é receptor universal?", "B", "O", "A", "AB", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Genética - I", "Ao cruzar um Dominante com Recessivo originará:", "AA", "aa", "AaAa", "Aa", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Genética - I", "Mendel é conhecido como", "Fixista", "Pai da evolução", "Pai do Criacionismo", "Pai da Genética", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Genética - I", "O que Mendel utilizava para fazer seus experimentos?", "Ervilhas", "Animais", "Uvas", "Rosas", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Genética - I", "Se cruzarmos um rato heterozigoto com uma fêmea de genótipo recessivo, qual será a proporção provável para seu descendente?", "Aa; aa; aa; AA", "AA; AA; AA; Aa", "aa; AA; AA; aa", "Aa; Aa; aa; aa", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Genética - I", "Um homem receptor universal casa-se com uma mulher do grupo sanguíneo B, cuja mãe é do grupo sanguíneo O. Marque a alternativa correspondente aos prováveis grupos sanguíneos dos filhos do casal.", "Grupo B ou O", "Grupo AB ou O", "Grupo AB ou O", "Grupo B ou AB", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Simulado do Enem - Biologia Celular", "(UFSC - 2013) A busca por novas formas de imunização é uma constante na humanidade. Sobre este tema, assinale a proposição CORRETA.", "Vacinas são métodos de imunização ativa, que contêm em sua composição anticorpos contra o agente infeccioso.", "Vacinas e soros são métodos de imunização que agem de forma semelhante na estimulação do sistema imunológico.", "Um antígeno pode ser caracterizado como uma molécula capaz de promover a desativação do sistema imune, sendo esta molécula endógena ou exógena.", "As vacinas contêm antígenos que induzem o organismo a produzir anticorpos específicos.", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Simulado do Enem - Biologia Celular", "(TdC - 2013) Sobre as células eucarióticas assinale a alternativa INCORRETA:", "Detém um núcleo contendo DNA.", "Ausência de RNA, presente no núcleo de certos vírus.", "Detém o retículo endoplasmático, responsável pelo transporte de material e síntese de proteínas.", "Ausência de centríolos, presente somente em bactérias heterotróficas.", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ('Simulado do Enem - Biologia Celular', '(IFSC - 2013) Assinale a alternativa que completa a frase afirmativa sobre as células, respectivamente: "Os ___ são responsáveis pela digestão celular. Já o ___ pelo acúmulo e eliminação de secreções. As ___ pela respiração da célula e os ___ pela formação de cílios e flagelos.', "Ribossomos - Retículo Endoplasmático - Paredes Celulares - Lisossomos.", "Centríolos - Complexo de Golgi - Mitocôndrias - Lisossomos", "Ribossomos - Retículo Endoplasmático - Paredes Celulares - Lisossomos", "Lisossomos - Complexo de Golgi - Mitocôndrias - Centríolos.", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Simulado do Enem - Biologia Celular", "(UFSC - 2013) Um pesquisador, realizando vários cruzamentos com coelhos, determinou que os genes A e B estavam a uma distância de 10 UR (unidades de recombinação). Ao realizar o cruzamento entre indivíduos AABB X aabb, obteve indivíduos AaBb. Estes duplo-heterozigotos foram então cruzados com indivíduos aabb, obtendo-se 90 filhotes. Quantos destes filhotes espera-se que possuam o mesmo genótipo de seus pais?", "80", "84", "82", "81", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Simulado do Enem - Biologia Celular", "(TdC - 2013) Incêndios são praticamente normais no cotidiano das cidades. No entanto, com os incêndios, ocorre uma grande liberação de gás carbônico, que pode levar, a quem estiver por perto, a insuficiência respiratória. Isto ocorre devido...", "ao transporte de O2 na corrente sanguínea.", "a destruição das hemácias presentes no sistema circulatório.", "a insuficiência de O3 aos pulmões.", "ao transporte de CO2 pela corrente sanguínea.", 0)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Simulado do Enem - Biologia Celular", "(UFSC - 2013) O neurônio é uma célula altamente especializada, didaticamente dividida em três regiões: dendritos, corpo celular e axônio. Em relação a uma célula neural assinale a proposição CORRETA:", "Um neurônio em repouso apresenta concentrações dos íons de sódio e potássio semelhantes às encontradas no meio extracelular.", "Se colocado em meio hipotônico, o neurônio acima terá uma entrada passiva de água por osmose, sendo a homeostase celular facilmente restabelecida por bombas de água que ocorrem em toda membrana plasmática.", "Quando o impulso nervoso ocorre, há abertura dos canais de sódio e ocorre grande influxo deste íon para o interior da célula através de transporte ativo.", "Em um neurônio em repouso, a superfície interna da membrana plasmática é eletricamente negativa em relação à superfície externa", 3)
+
+INSERT INTO perguntas (tema, pergunta, resposta1, resposta2, resposta3, resposta4, dificuldade) VALUES ("Simulado do Enem - Biologia Celular", "(TdC - 2013) O citoesqueleto é fundamental para o adequado funcionamento das células. Sobre o citoesqueleto, é INCORRETO afirmar que ele:", "está envolvido no movimento dos espermatozóides.", "apresenta centríolos como um dos seus componentes.", "participa do processo de contração muscular.", "tem como principais componentes diversos tipos de glicídios.", 0)

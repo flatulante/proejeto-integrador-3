@@ -1,4 +1,5 @@
-import sqlite3, os, random, time, platform
+import os, random, time, platform
+from dao import DAO
 
 def input_int(mensagem, minimo=None, maximo=None):
     valido = False
@@ -21,25 +22,24 @@ class Perguntas():
 	
     def __init__(self, jogador):
         self.jogador = jogador
-        self.criarConexão()
-        self.temas = [[0,"Plantas"], [1,"Matematica"]]
+        self.temas = [
+            [0, "Plantas"],
+            [1, "Reino Vegetal I"],
+            [2, "DNA e RNA - I"],
+            [3, "Genética - I"],
+            [4, "Simulado do Enem - Biologia Celular"]
+        ]
         tema = self.definirTema()
         self.perguntas = self.pegarPerguntas(tema)
         self.jogo()
-        self.fecharConexão()
 
-    def criarConexão(self):
-        self.conn = sqlite3.connect("perguntas.db")
-        self.cursor = self.conn.cursor()
-
-    def fecharConexão(self):
-        self.cursor.close()
-        self.conn.close()
 
     def pegarPerguntas(self, tema):
+        DAO.criar_conexao()
         sql = "SELECT * FROM perguntas WHERE lower(tema) = '%s'" %(tema.lower())
-        self.cursor.execute(sql)
-        self.lista = self.cursor.fetchall()
+        DAO.cursor.execute(sql)
+        self.lista = DAO.cursor.fetchall()
+        DAO.fechar_conexao()
         return self.lista
 
     def limpar(self):
